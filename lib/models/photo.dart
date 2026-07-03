@@ -1,9 +1,8 @@
 /// Modelo de datos que representa una fotografía del grid.
 ///
-/// En una app real, esta lista vendría de una API (por ejemplo, un backend
-/// propio o un servicio como Unsplash). Para esta actividad se genera de
-/// forma local usando un servicio público de imágenes de muestra
-/// (picsum.photos), identificando cada foto por un [id] y una URL.
+/// En una aplicación real, esta información podría obtenerse desde una API,
+/// como un backend propio o un servicio externo. Para esta actividad, los datos
+/// se generan de forma local utilizando imágenes de muestra de picsum.photos.
 class Photo {
   final int id;
   final String imageUrl;
